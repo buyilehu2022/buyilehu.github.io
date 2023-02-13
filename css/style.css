@@ -2051,27 +2051,6 @@ pre .javascript .function {
   transform: scale(0.72);
   transform-origin: left;
 }
-.header-wrapper .header-content .left .logo-image {
-  width: 46px;
-  height: 46px;
-  margin-right: 8px;
-}
-@media (max-width: 800px) {
-  .header-wrapper .header-content .left .logo-image {
-    width: 41.4px;
-    height: 41.4px;
-  }
-}
-@media (max-width: 500px) {
-  .header-wrapper .header-content .left .logo-image {
-    width: 36.800000000000004px;
-    height: 36.800000000000004px;
-  }
-}
-.header-wrapper .header-content .left .logo-image img {
-  width: 100%;
-  border-radius: 6px;
-}
 .header-wrapper .header-content .left .logo-title {
   color: var(--text-color-1);
   font-weight: bold;
@@ -2652,17 +2631,6 @@ pre .javascript .function {
   height: 100vh;
   overflow: hidden;
   background: url("/images/bg.svg") center center/cover no-repeat;
-  background-position-y: 70px;
-}
-@media (max-width: 800px) {
-  .first-screen-container {
-    background-position-y: 63px;
-  }
-}
-@media (max-width: 500px) {
-  .first-screen-container {
-    background-position-y: 56px;
-  }
 }
 .first-screen-container .content {
   position: relative;
